@@ -39,6 +39,8 @@ int main()
 	}
 	else{
 	  cout << "-----RESTART-----" << endl << endl;
+	  guesses = 0;
+	  randomnumber = rand() % 101;
 	}
       }
   }
